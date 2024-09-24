@@ -1,0 +1,2006 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>7de74f6451d84e59b0ab5ac114c37378</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="pre-trained-language-models-subtask-b"
+class="cell markdown" data-deletable="false" data-editable="false"
+id="LP02Bz-_Depe">
+<h1>Pre-trained Language Models: SubTask B</h1>
+<h2 id="6-marks">[6 Marks]</h2>
+<p>In this assignment, you will work on the <a
+href="https://competitions.codalab.org/competitions/21080">ComVE</a>
+shared task that was part of SemEval-2020. The task aims to evaluate
+whether a system can distinguish if a natural language statement makes
+sense to humans or not and provide a reason. <strong>ConVE</strong>
+includes three subtasks that require models to acquire and apply
+commonsense knowledge. In this notebook you will focus on
+<strong>SubTask B</strong>:</p>
+<ul>
+<li><p>Given a statement that does not make sense and three possible
+reasons, select which reason explains why the given statement is against
+common sense. For example, for the following nonsensical statement the
+correct answer is <em>Reason A</em>:</p>
+<p><em>Statement</em>: He put an elephant into the fridge.<br />
+<em>Reason A</em>: An elephant is much bigger than a fridge.<br />
+<em>Reason B</em>: Elephants are usually white while fridges are usually
+white.<br />
+<em>Reason C</em>: An elephant cannot eat a fridge.</p>
+<p>This subtask can be approached as a Multiple Choice problem where the
+input is the nonsensical statement and the three possible explanations,
+and the output is a label indicating which of the reasons is the correct
+one.</p></li>
+</ul>
+<p>You will fine-tune a Pre-trained Language Model with <a
+href="https://huggingface.co/docs/transformers/index">Transformers</a>
+library that provides a set of tools for fine-tunning and deploying a
+wide variety of Pre-trained Language Models. The <a
+href="https://huggingface.co/models">Hugging Face Hub</a> allows you to
+explore all the models supported by <strong>Transformers</strong> and
+even share your own models with the community. In this assignment, you
+will work with <a
+href="https://huggingface.co/docs/transformers/model_doc/roberta">RoBERTa</a>,
+a model that uses <strong>BERT</strong>'s architecture but has been
+pre-trained with more data and a more carefully selected set of
+hyperparameters.</p>
+<p>Fine-tuning a Pre-trained Language Model usually requires a great
+amount of time and computational resources. Your personal computer will
+not be probably enough. In order to complete the assignment, you can
+work with a reduced version of the dataset and the base version of
+<strong>RoBERTa</strong>:</p>
+</section>
+<div class="cell code" data-execution_count="1"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="KRh2Vd-toOTO" data-outputId="592dd05e-ed6f-4aa2-c8eb-8e9fadaf2b64">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install <span class="op">-</span>r <span class="st">&#39;/content/sample_data/Assessment+4_+requirements.txt&#39;</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Requirement already satisfied: ipython==7.34.0 in /usr/local/lib/python3.10/dist-packages (from -r /content/sample_data/Assessment+4_+requirements.txt (line 1)) (7.34.0)
+Collecting jupyter==1.0.0 (from -r /content/sample_data/Assessment+4_+requirements.txt (line 2))
+  Downloading jupyter-1.0.0-py2.py3-none-any.whl (2.7 kB)
+Collecting nbimporter==0.3.4 (from -r /content/sample_data/Assessment+4_+requirements.txt (line 3))
+  Downloading nbimporter-0.3.4-py3-none-any.whl (4.9 kB)
+Collecting pytest==7.1.3 (from -r /content/sample_data/Assessment+4_+requirements.txt (line 4))
+  Downloading pytest-7.1.3-py3-none-any.whl (298 kB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 298.2/298.2 kB 5.8 MB/s eta 0:00:00
+ent already satisfied: pandas==2.0.3 in /usr/local/lib/python3.10/dist-packages (from -r /content/sample_data/Assessment+4_+requirements.txt (line 5)) (2.0.3)
+Requirement already satisfied: tensorflow==2.15 in /usr/local/lib/python3.10/dist-packages (from -r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (2.15.0)
+Requirement already satisfied: torch==2.3.0 in /usr/local/lib/python3.10/dist-packages (from -r /content/sample_data/Assessment+4_+requirements.txt (line 7)) (2.3.0+cu121)
+Collecting transformers==4.23.1 (from -r /content/sample_data/Assessment+4_+requirements.txt (line 8))
+  Downloading transformers-4.23.1-py3-none-any.whl (5.3 MB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.3/5.3 MB 58.8 MB/s eta 0:00:00
+ -r /content/sample_data/Assessment+4_+requirements.txt (line 9))
+  Downloading datasets-2.11.0-py3-none-any.whl (468 kB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 468.7/468.7 kB 40.1 MB/s eta 0:00:00
+ -r /content/sample_data/Assessment+4_+requirements.txt (line 10))
+  Downloading evaluate-0.4.0-py3-none-any.whl (81 kB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 81.4/81.4 kB 10.1 MB/s eta 0:00:00
+ -r /content/sample_data/Assessment+4_+requirements.txt (line 11))
+  Downloading rouge_score-0.1.2.tar.gz (17 kB)
+  Preparing metadata (setup.py) ... ent already satisfied: setuptools&gt;=18.5 in /usr/local/lib/python3.10/dist-packages (from ipython==7.34.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 1)) (67.7.2)
+Collecting jedi&gt;=0.16 (from ipython==7.34.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 1))
+  Downloading jedi-0.19.1-py2.py3-none-any.whl (1.6 MB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 67.8 MB/s eta 0:00:00
+ent already satisfied: decorator in /usr/local/lib/python3.10/dist-packages (from ipython==7.34.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 1)) (4.4.2)
+Requirement already satisfied: pickleshare in /usr/local/lib/python3.10/dist-packages (from ipython==7.34.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 1)) (0.7.5)
+Requirement already satisfied: traitlets&gt;=4.2 in /usr/local/lib/python3.10/dist-packages (from ipython==7.34.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 1)) (5.7.1)
+Requirement already satisfied: prompt-toolkit!=3.0.0,!=3.0.1,&lt;3.1.0,&gt;=2.0.0 in /usr/local/lib/python3.10/dist-packages (from ipython==7.34.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 1)) (3.0.47)
+Requirement already satisfied: pygments in /usr/local/lib/python3.10/dist-packages (from ipython==7.34.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 1)) (2.16.1)
+Requirement already satisfied: backcall in /usr/local/lib/python3.10/dist-packages (from ipython==7.34.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 1)) (0.2.0)
+Requirement already satisfied: matplotlib-inline in /usr/local/lib/python3.10/dist-packages (from ipython==7.34.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 1)) (0.1.7)
+Requirement already satisfied: pexpect&gt;4.3 in /usr/local/lib/python3.10/dist-packages (from ipython==7.34.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 1)) (4.9.0)
+Requirement already satisfied: notebook in /usr/local/lib/python3.10/dist-packages (from jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (6.5.5)
+Collecting qtconsole (from jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2))
+  Downloading qtconsole-5.5.2-py3-none-any.whl (123 kB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 123.4/123.4 kB 11.1 MB/s eta 0:00:00
+ent already satisfied: jupyter-console in /usr/local/lib/python3.10/dist-packages (from jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (6.1.0)
+Requirement already satisfied: nbconvert in /usr/local/lib/python3.10/dist-packages (from jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (6.5.4)
+Requirement already satisfied: ipykernel in /usr/local/lib/python3.10/dist-packages (from jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (5.5.6)
+Requirement already satisfied: ipywidgets in /usr/local/lib/python3.10/dist-packages (from jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (7.7.1)
+Requirement already satisfied: attrs&gt;=19.2.0 in /usr/local/lib/python3.10/dist-packages (from pytest==7.1.3-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 4)) (23.2.0)
+Requirement already satisfied: iniconfig in /usr/local/lib/python3.10/dist-packages (from pytest==7.1.3-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 4)) (2.0.0)
+Requirement already satisfied: packaging in /usr/local/lib/python3.10/dist-packages (from pytest==7.1.3-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 4)) (24.1)
+Requirement already satisfied: pluggy&lt;2.0,&gt;=0.12 in /usr/local/lib/python3.10/dist-packages (from pytest==7.1.3-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 4)) (1.5.0)
+Collecting py&gt;=1.8.2 (from pytest==7.1.3-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 4))
+  Downloading py-1.11.0-py2.py3-none-any.whl (98 kB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.7/98.7 kB 11.8 MB/s eta 0:00:00
+ent already satisfied: tomli&gt;=1.0.0 in /usr/local/lib/python3.10/dist-packages (from pytest==7.1.3-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 4)) (2.0.1)
+Requirement already satisfied: python-dateutil&gt;=2.8.2 in /usr/local/lib/python3.10/dist-packages (from pandas==2.0.3-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 5)) (2.8.2)
+Requirement already satisfied: pytz&gt;=2020.1 in /usr/local/lib/python3.10/dist-packages (from pandas==2.0.3-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 5)) (2023.4)
+Requirement already satisfied: tzdata&gt;=2022.1 in /usr/local/lib/python3.10/dist-packages (from pandas==2.0.3-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 5)) (2024.1)
+Requirement already satisfied: numpy&gt;=1.21.0 in /usr/local/lib/python3.10/dist-packages (from pandas==2.0.3-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 5)) (1.25.2)
+Requirement already satisfied: absl-py&gt;=1.0.0 in /usr/local/lib/python3.10/dist-packages (from tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (1.4.0)
+Requirement already satisfied: astunparse&gt;=1.6.0 in /usr/local/lib/python3.10/dist-packages (from tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (1.6.3)
+Requirement already satisfied: flatbuffers&gt;=23.5.26 in /usr/local/lib/python3.10/dist-packages (from tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (24.3.25)
+Requirement already satisfied: gast!=0.5.0,!=0.5.1,!=0.5.2,&gt;=0.2.1 in /usr/local/lib/python3.10/dist-packages (from tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (0.5.4)
+Requirement already satisfied: google-pasta&gt;=0.1.1 in /usr/local/lib/python3.10/dist-packages (from tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (0.2.0)
+Requirement already satisfied: h5py&gt;=2.9.0 in /usr/local/lib/python3.10/dist-packages (from tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (3.9.0)
+Requirement already satisfied: libclang&gt;=13.0.0 in /usr/local/lib/python3.10/dist-packages (from tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (18.1.1)
+Requirement already satisfied: ml-dtypes~=0.2.0 in /usr/local/lib/python3.10/dist-packages (from tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (0.2.0)
+Requirement already satisfied: opt-einsum&gt;=2.3.2 in /usr/local/lib/python3.10/dist-packages (from tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (3.3.0)
+Requirement already satisfied: protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,&lt;5.0.0dev,&gt;=3.20.3 in /usr/local/lib/python3.10/dist-packages (from tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (3.20.3)
+Requirement already satisfied: six&gt;=1.12.0 in /usr/local/lib/python3.10/dist-packages (from tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (1.16.0)
+Requirement already satisfied: termcolor&gt;=1.1.0 in /usr/local/lib/python3.10/dist-packages (from tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (2.4.0)
+Requirement already satisfied: typing-extensions&gt;=3.6.6 in /usr/local/lib/python3.10/dist-packages (from tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (4.12.2)
+Requirement already satisfied: wrapt&lt;1.15,&gt;=1.11.0 in /usr/local/lib/python3.10/dist-packages (from tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (1.14.1)
+Requirement already satisfied: tensorflow-io-gcs-filesystem&gt;=0.23.1 in /usr/local/lib/python3.10/dist-packages (from tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (0.37.0)
+Requirement already satisfied: grpcio&lt;2.0,&gt;=1.24.3 in /usr/local/lib/python3.10/dist-packages (from tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (1.64.1)
+Requirement already satisfied: tensorboard&lt;2.16,&gt;=2.15 in /usr/local/lib/python3.10/dist-packages (from tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (2.15.2)
+Requirement already satisfied: tensorflow-estimator&lt;2.16,&gt;=2.15.0 in /usr/local/lib/python3.10/dist-packages (from tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (2.15.0)
+Requirement already satisfied: keras&lt;2.16,&gt;=2.15.0 in /usr/local/lib/python3.10/dist-packages (from tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (2.15.0)
+Requirement already satisfied: filelock in /usr/local/lib/python3.10/dist-packages (from torch==2.3.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 7)) (3.15.3)
+Requirement already satisfied: sympy in /usr/local/lib/python3.10/dist-packages (from torch==2.3.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 7)) (1.12.1)
+Requirement already satisfied: networkx in /usr/local/lib/python3.10/dist-packages (from torch==2.3.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 7)) (3.3)
+Requirement already satisfied: jinja2 in /usr/local/lib/python3.10/dist-packages (from torch==2.3.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 7)) (3.1.4)
+Requirement already satisfied: fsspec in /usr/local/lib/python3.10/dist-packages (from torch==2.3.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 7)) (2023.6.0)
+Collecting nvidia-cuda-nvrtc-cu12==12.1.105 (from torch==2.3.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 7))
+  Using cached nvidia_cuda_nvrtc_cu12-12.1.105-py3-none-manylinux1_x86_64.whl (23.7 MB)
+Collecting nvidia-cuda-runtime-cu12==12.1.105 (from torch==2.3.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 7))
+  Using cached nvidia_cuda_runtime_cu12-12.1.105-py3-none-manylinux1_x86_64.whl (823 kB)
+Collecting nvidia-cuda-cupti-cu12==12.1.105 (from torch==2.3.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 7))
+  Using cached nvidia_cuda_cupti_cu12-12.1.105-py3-none-manylinux1_x86_64.whl (14.1 MB)
+Collecting nvidia-cudnn-cu12==8.9.2.26 (from torch==2.3.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 7))
+  Using cached nvidia_cudnn_cu12-8.9.2.26-py3-none-manylinux1_x86_64.whl (731.7 MB)
+Collecting nvidia-cublas-cu12==12.1.3.1 (from torch==2.3.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 7))
+  Using cached nvidia_cublas_cu12-12.1.3.1-py3-none-manylinux1_x86_64.whl (410.6 MB)
+Collecting nvidia-cufft-cu12==11.0.2.54 (from torch==2.3.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 7))
+  Using cached nvidia_cufft_cu12-11.0.2.54-py3-none-manylinux1_x86_64.whl (121.6 MB)
+Collecting nvidia-curand-cu12==10.3.2.106 (from torch==2.3.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 7))
+  Using cached nvidia_curand_cu12-10.3.2.106-py3-none-manylinux1_x86_64.whl (56.5 MB)
+Collecting nvidia-cusolver-cu12==11.4.5.107 (from torch==2.3.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 7))
+  Using cached nvidia_cusolver_cu12-11.4.5.107-py3-none-manylinux1_x86_64.whl (124.2 MB)
+Collecting nvidia-cusparse-cu12==12.1.0.106 (from torch==2.3.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 7))
+  Using cached nvidia_cusparse_cu12-12.1.0.106-py3-none-manylinux1_x86_64.whl (196.0 MB)
+Collecting nvidia-nccl-cu12==2.20.5 (from torch==2.3.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 7))
+  Using cached nvidia_nccl_cu12-2.20.5-py3-none-manylinux2014_x86_64.whl (176.2 MB)
+Collecting nvidia-nvtx-cu12==12.1.105 (from torch==2.3.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 7))
+  Using cached nvidia_nvtx_cu12-12.1.105-py3-none-manylinux1_x86_64.whl (99 kB)
+Requirement already satisfied: triton==2.3.0 in /usr/local/lib/python3.10/dist-packages (from torch==2.3.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 7)) (2.3.0)
+Requirement already satisfied: huggingface-hub&lt;1.0,&gt;=0.10.0 in /usr/local/lib/python3.10/dist-packages (from transformers==4.23.1-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 8)) (0.23.4)
+Requirement already satisfied: pyyaml&gt;=5.1 in /usr/local/lib/python3.10/dist-packages (from transformers==4.23.1-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 8)) (6.0.1)
+Requirement already satisfied: regex!=2019.12.17 in /usr/local/lib/python3.10/dist-packages (from transformers==4.23.1-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 8)) (2024.5.15)
+Requirement already satisfied: requests in /usr/local/lib/python3.10/dist-packages (from transformers==4.23.1-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 8)) (2.31.0)
+Collecting tokenizers!=0.11.3,&lt;0.14,&gt;=0.11.1 (from transformers==4.23.1-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 8))
+  Downloading tokenizers-0.13.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (7.8 MB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.8/7.8 MB 57.1 MB/s eta 0:00:00
+ent already satisfied: tqdm&gt;=4.27 in /usr/local/lib/python3.10/dist-packages (from transformers==4.23.1-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 8)) (4.66.4)
+Requirement already satisfied: pyarrow&gt;=8.0.0 in /usr/local/lib/python3.10/dist-packages (from datasets==2.11.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 9)) (14.0.2)
+Collecting dill&lt;0.3.7,&gt;=0.3.0 (from datasets==2.11.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 9))
+  Downloading dill-0.3.6-py3-none-any.whl (110 kB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 110.5/110.5 kB 14.6 MB/s eta 0:00:00
+ datasets==2.11.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 9))
+  Downloading xxhash-3.4.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (194 kB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 194.1/194.1 kB 21.4 MB/s eta 0:00:00
+ultiprocess (from datasets==2.11.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 9))
+  Downloading multiprocess-0.70.16-py310-none-any.whl (134 kB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.8/134.8 kB 18.8 MB/s eta 0:00:00
+ent already satisfied: aiohttp in /usr/local/lib/python3.10/dist-packages (from datasets==2.11.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 9)) (3.9.5)
+Collecting responses&lt;0.19 (from datasets==2.11.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 9))
+  Downloading responses-0.18.0-py3-none-any.whl (38 kB)
+Requirement already satisfied: nltk in /usr/local/lib/python3.10/dist-packages (from rouge-score==0.1.2-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 11)) (3.8.1)
+Collecting nvidia-nvjitlink-cu12 (from nvidia-cusolver-cu12==11.4.5.107-&gt;torch==2.3.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 7))
+  Downloading nvidia_nvjitlink_cu12-12.5.40-py3-none-manylinux2014_x86_64.whl (21.3 MB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21.3/21.3 MB 58.2 MB/s eta 0:00:00
+ent already satisfied: wheel&lt;1.0,&gt;=0.23.0 in /usr/local/lib/python3.10/dist-packages (from astunparse&gt;=1.6.0-&gt;tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (0.43.0)
+Requirement already satisfied: aiosignal&gt;=1.1.2 in /usr/local/lib/python3.10/dist-packages (from aiohttp-&gt;datasets==2.11.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 9)) (1.3.1)
+Requirement already satisfied: frozenlist&gt;=1.1.1 in /usr/local/lib/python3.10/dist-packages (from aiohttp-&gt;datasets==2.11.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 9)) (1.4.1)
+Requirement already satisfied: multidict&lt;7.0,&gt;=4.5 in /usr/local/lib/python3.10/dist-packages (from aiohttp-&gt;datasets==2.11.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 9)) (6.0.5)
+Requirement already satisfied: yarl&lt;2.0,&gt;=1.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp-&gt;datasets==2.11.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 9)) (1.9.4)
+Requirement already satisfied: async-timeout&lt;5.0,&gt;=4.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp-&gt;datasets==2.11.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 9)) (4.0.3)
+Requirement already satisfied: parso&lt;0.9.0,&gt;=0.8.3 in /usr/local/lib/python3.10/dist-packages (from jedi&gt;=0.16-&gt;ipython==7.34.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 1)) (0.8.4)
+Requirement already satisfied: ptyprocess&gt;=0.5 in /usr/local/lib/python3.10/dist-packages (from pexpect&gt;4.3-&gt;ipython==7.34.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 1)) (0.7.0)
+Requirement already satisfied: wcwidth in /usr/local/lib/python3.10/dist-packages (from prompt-toolkit!=3.0.0,!=3.0.1,&lt;3.1.0,&gt;=2.0.0-&gt;ipython==7.34.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 1)) (0.2.13)
+Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;transformers==4.23.1-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 8)) (3.3.2)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;transformers==4.23.1-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 8)) (3.7)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;transformers==4.23.1-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 8)) (2.0.7)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests-&gt;transformers==4.23.1-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 8)) (2024.6.2)
+Requirement already satisfied: google-auth&lt;3,&gt;=1.6.3 in /usr/local/lib/python3.10/dist-packages (from tensorboard&lt;2.16,&gt;=2.15-&gt;tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (2.27.0)
+Requirement already satisfied: google-auth-oauthlib&lt;2,&gt;=0.5 in /usr/local/lib/python3.10/dist-packages (from tensorboard&lt;2.16,&gt;=2.15-&gt;tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (1.2.0)
+Requirement already satisfied: markdown&gt;=2.6.8 in /usr/local/lib/python3.10/dist-packages (from tensorboard&lt;2.16,&gt;=2.15-&gt;tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (3.6)
+Requirement already satisfied: tensorboard-data-server&lt;0.8.0,&gt;=0.7.0 in /usr/local/lib/python3.10/dist-packages (from tensorboard&lt;2.16,&gt;=2.15-&gt;tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (0.7.2)
+Requirement already satisfied: werkzeug&gt;=1.0.1 in /usr/local/lib/python3.10/dist-packages (from tensorboard&lt;2.16,&gt;=2.15-&gt;tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (3.0.3)
+Requirement already satisfied: ipython-genutils in /usr/local/lib/python3.10/dist-packages (from ipykernel-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (0.2.0)
+Requirement already satisfied: jupyter-client in /usr/local/lib/python3.10/dist-packages (from ipykernel-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (6.1.12)
+Requirement already satisfied: tornado&gt;=4.2 in /usr/local/lib/python3.10/dist-packages (from ipykernel-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (6.3.3)
+Requirement already satisfied: widgetsnbextension~=3.6.0 in /usr/local/lib/python3.10/dist-packages (from ipywidgets-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (3.6.6)
+Requirement already satisfied: jupyterlab-widgets&gt;=1.0.0 in /usr/local/lib/python3.10/dist-packages (from ipywidgets-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (3.0.11)
+Requirement already satisfied: MarkupSafe&gt;=2.0 in /usr/local/lib/python3.10/dist-packages (from jinja2-&gt;torch==2.3.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 7)) (2.1.5)
+INFO: pip is looking at multiple versions of multiprocess to determine which version is compatible with other requirements. This could take a while.
+Collecting multiprocess (from datasets==2.11.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 9))
+  Downloading multiprocess-0.70.15-py310-none-any.whl (134 kB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.8/134.8 kB 14.9 MB/s eta 0:00:00
+ultiprocess-0.70.14-py310-none-any.whl (134 kB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.3/134.3 kB 16.4 MB/s eta 0:00:00
+ent already satisfied: lxml in /usr/local/lib/python3.10/dist-packages (from nbconvert-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (4.9.4)
+Requirement already satisfied: beautifulsoup4 in /usr/local/lib/python3.10/dist-packages (from nbconvert-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (4.12.3)
+Requirement already satisfied: bleach in /usr/local/lib/python3.10/dist-packages (from nbconvert-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (6.1.0)
+Requirement already satisfied: defusedxml in /usr/local/lib/python3.10/dist-packages (from nbconvert-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (0.7.1)
+Requirement already satisfied: entrypoints&gt;=0.2.2 in /usr/local/lib/python3.10/dist-packages (from nbconvert-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (0.4)
+Requirement already satisfied: jupyter-core&gt;=4.7 in /usr/local/lib/python3.10/dist-packages (from nbconvert-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (5.7.2)
+Requirement already satisfied: jupyterlab-pygments in /usr/local/lib/python3.10/dist-packages (from nbconvert-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (0.3.0)
+Requirement already satisfied: mistune&lt;2,&gt;=0.8.1 in /usr/local/lib/python3.10/dist-packages (from nbconvert-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (0.8.4)
+Requirement already satisfied: nbclient&gt;=0.5.0 in /usr/local/lib/python3.10/dist-packages (from nbconvert-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (0.10.0)
+Requirement already satisfied: nbformat&gt;=5.1 in /usr/local/lib/python3.10/dist-packages (from nbconvert-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (5.10.4)
+Requirement already satisfied: pandocfilters&gt;=1.4.1 in /usr/local/lib/python3.10/dist-packages (from nbconvert-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (1.5.1)
+Requirement already satisfied: tinycss2 in /usr/local/lib/python3.10/dist-packages (from nbconvert-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (1.3.0)
+Requirement already satisfied: click in /usr/local/lib/python3.10/dist-packages (from nltk-&gt;rouge-score==0.1.2-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 11)) (8.1.7)
+Requirement already satisfied: joblib in /usr/local/lib/python3.10/dist-packages (from nltk-&gt;rouge-score==0.1.2-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 11)) (1.4.2)
+Requirement already satisfied: pyzmq&lt;25,&gt;=17 in /usr/local/lib/python3.10/dist-packages (from notebook-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (24.0.1)
+Requirement already satisfied: argon2-cffi in /usr/local/lib/python3.10/dist-packages (from notebook-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (23.1.0)
+Requirement already satisfied: nest-asyncio&gt;=1.5 in /usr/local/lib/python3.10/dist-packages (from notebook-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (1.6.0)
+Requirement already satisfied: Send2Trash&gt;=1.8.0 in /usr/local/lib/python3.10/dist-packages (from notebook-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (1.8.3)
+Requirement already satisfied: terminado&gt;=0.8.3 in /usr/local/lib/python3.10/dist-packages (from notebook-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (0.18.1)
+Requirement already satisfied: prometheus-client in /usr/local/lib/python3.10/dist-packages (from notebook-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (0.20.0)
+Requirement already satisfied: nbclassic&gt;=0.4.7 in /usr/local/lib/python3.10/dist-packages (from notebook-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (1.1.0)
+Collecting qtpy&gt;=2.4.0 (from qtconsole-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2))
+  Downloading QtPy-2.4.1-py3-none-any.whl (93 kB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.5/93.5 kB 10.7 MB/s eta 0:00:00
+ent already satisfied: mpmath&lt;1.4.0,&gt;=1.1.0 in /usr/local/lib/python3.10/dist-packages (from sympy-&gt;torch==2.3.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 7)) (1.3.0)
+Requirement already satisfied: cachetools&lt;6.0,&gt;=2.0.0 in /usr/local/lib/python3.10/dist-packages (from google-auth&lt;3,&gt;=1.6.3-&gt;tensorboard&lt;2.16,&gt;=2.15-&gt;tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (5.3.3)
+Requirement already satisfied: pyasn1-modules&gt;=0.2.1 in /usr/local/lib/python3.10/dist-packages (from google-auth&lt;3,&gt;=1.6.3-&gt;tensorboard&lt;2.16,&gt;=2.15-&gt;tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (0.4.0)
+Requirement already satisfied: rsa&lt;5,&gt;=3.1.4 in /usr/local/lib/python3.10/dist-packages (from google-auth&lt;3,&gt;=1.6.3-&gt;tensorboard&lt;2.16,&gt;=2.15-&gt;tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (4.9)
+Requirement already satisfied: requests-oauthlib&gt;=0.7.0 in /usr/local/lib/python3.10/dist-packages (from google-auth-oauthlib&lt;2,&gt;=0.5-&gt;tensorboard&lt;2.16,&gt;=2.15-&gt;tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (1.3.1)
+Requirement already satisfied: platformdirs&gt;=2.5 in /usr/local/lib/python3.10/dist-packages (from jupyter-core&gt;=4.7-&gt;nbconvert-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (4.2.2)
+Requirement already satisfied: notebook-shim&gt;=0.2.3 in /usr/local/lib/python3.10/dist-packages (from nbclassic&gt;=0.4.7-&gt;notebook-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (0.2.4)
+Requirement already satisfied: fastjsonschema&gt;=2.15 in /usr/local/lib/python3.10/dist-packages (from nbformat&gt;=5.1-&gt;nbconvert-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (2.20.0)
+Requirement already satisfied: jsonschema&gt;=2.6 in /usr/local/lib/python3.10/dist-packages (from nbformat&gt;=5.1-&gt;nbconvert-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (4.19.2)
+Requirement already satisfied: argon2-cffi-bindings in /usr/local/lib/python3.10/dist-packages (from argon2-cffi-&gt;notebook-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (21.2.0)
+Requirement already satisfied: soupsieve&gt;1.2 in /usr/local/lib/python3.10/dist-packages (from beautifulsoup4-&gt;nbconvert-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (2.5)
+Requirement already satisfied: webencodings in /usr/local/lib/python3.10/dist-packages (from bleach-&gt;nbconvert-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (0.5.1)
+Requirement already satisfied: jsonschema-specifications&gt;=2023.03.6 in /usr/local/lib/python3.10/dist-packages (from jsonschema&gt;=2.6-&gt;nbformat&gt;=5.1-&gt;nbconvert-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (2023.12.1)
+Requirement already satisfied: referencing&gt;=0.28.4 in /usr/local/lib/python3.10/dist-packages (from jsonschema&gt;=2.6-&gt;nbformat&gt;=5.1-&gt;nbconvert-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (0.35.1)
+Requirement already satisfied: rpds-py&gt;=0.7.1 in /usr/local/lib/python3.10/dist-packages (from jsonschema&gt;=2.6-&gt;nbformat&gt;=5.1-&gt;nbconvert-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (0.18.1)
+Requirement already satisfied: jupyter-server&lt;3,&gt;=1.8 in /usr/local/lib/python3.10/dist-packages (from notebook-shim&gt;=0.2.3-&gt;nbclassic&gt;=0.4.7-&gt;notebook-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (1.24.0)
+Requirement already satisfied: pyasn1&lt;0.7.0,&gt;=0.4.6 in /usr/local/lib/python3.10/dist-packages (from pyasn1-modules&gt;=0.2.1-&gt;google-auth&lt;3,&gt;=1.6.3-&gt;tensorboard&lt;2.16,&gt;=2.15-&gt;tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (0.6.0)
+Requirement already satisfied: oauthlib&gt;=3.0.0 in /usr/local/lib/python3.10/dist-packages (from requests-oauthlib&gt;=0.7.0-&gt;google-auth-oauthlib&lt;2,&gt;=0.5-&gt;tensorboard&lt;2.16,&gt;=2.15-&gt;tensorflow==2.15-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 6)) (3.2.2)
+Requirement already satisfied: cffi&gt;=1.0.1 in /usr/local/lib/python3.10/dist-packages (from argon2-cffi-bindings-&gt;argon2-cffi-&gt;notebook-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (1.16.0)
+Requirement already satisfied: pycparser in /usr/local/lib/python3.10/dist-packages (from cffi&gt;=1.0.1-&gt;argon2-cffi-bindings-&gt;argon2-cffi-&gt;notebook-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (2.22)
+Requirement already satisfied: anyio&lt;4,&gt;=3.1.0 in /usr/local/lib/python3.10/dist-packages (from jupyter-server&lt;3,&gt;=1.8-&gt;notebook-shim&gt;=0.2.3-&gt;nbclassic&gt;=0.4.7-&gt;notebook-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (3.7.1)
+Requirement already satisfied: websocket-client in /usr/local/lib/python3.10/dist-packages (from jupyter-server&lt;3,&gt;=1.8-&gt;notebook-shim&gt;=0.2.3-&gt;nbclassic&gt;=0.4.7-&gt;notebook-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (1.8.0)
+Requirement already satisfied: sniffio&gt;=1.1 in /usr/local/lib/python3.10/dist-packages (from anyio&lt;4,&gt;=3.1.0-&gt;jupyter-server&lt;3,&gt;=1.8-&gt;notebook-shim&gt;=0.2.3-&gt;nbclassic&gt;=0.4.7-&gt;notebook-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (1.3.1)
+Requirement already satisfied: exceptiongroup in /usr/local/lib/python3.10/dist-packages (from anyio&lt;4,&gt;=3.1.0-&gt;jupyter-server&lt;3,&gt;=1.8-&gt;notebook-shim&gt;=0.2.3-&gt;nbclassic&gt;=0.4.7-&gt;notebook-&gt;jupyter==1.0.0-&gt;-r /content/sample_data/Assessment+4_+requirements.txt (line 2)) (1.2.1)
+Building wheels for collected packages: rouge-score
+  Building wheel for rouge-score (setup.py) ... e=rouge_score-0.1.2-py3-none-any.whl size=24933 sha256=094ce80ff3b44602f080714bafa060665ff8540d04571abea3c51e9ca08b5525
+  Stored in directory: /root/.cache/pip/wheels/5f/dd/89/461065a73be61a532ff8599a28e9beef17985c9e9c31e541b4
+Successfully built rouge-score
+Installing collected packages: tokenizers, nbimporter, xxhash, qtpy, py, nvidia-nvtx-cu12, nvidia-nvjitlink-cu12, nvidia-nccl-cu12, nvidia-curand-cu12, nvidia-cufft-cu12, nvidia-cuda-runtime-cu12, nvidia-cuda-nvrtc-cu12, nvidia-cuda-cupti-cu12, nvidia-cublas-cu12, jedi, dill, rouge-score, responses, pytest, nvidia-cusparse-cu12, nvidia-cudnn-cu12, multiprocess, transformers, nvidia-cusolver-cu12, qtconsole, datasets, evaluate, jupyter
+  Attempting uninstall: tokenizers
+    Found existing installation: tokenizers 0.19.1
+    Uninstalling tokenizers-0.19.1:
+      Successfully uninstalled tokenizers-0.19.1
+  Attempting uninstall: pytest
+    Found existing installation: pytest 7.4.4
+    Uninstalling pytest-7.4.4:
+      Successfully uninstalled pytest-7.4.4
+  Attempting uninstall: transformers
+    Found existing installation: transformers 4.41.2
+    Uninstalling transformers-4.41.2:
+      Successfully uninstalled transformers-4.41.2
+Successfully installed datasets-2.11.0 dill-0.3.6 evaluate-0.4.0 jedi-0.19.1 jupyter-1.0.0 multiprocess-0.70.14 nbimporter-0.3.4 nvidia-cublas-cu12-12.1.3.1 nvidia-cuda-cupti-cu12-12.1.105 nvidia-cuda-nvrtc-cu12-12.1.105 nvidia-cuda-runtime-cu12-12.1.105 nvidia-cudnn-cu12-8.9.2.26 nvidia-cufft-cu12-11.0.2.54 nvidia-curand-cu12-10.3.2.106 nvidia-cusolver-cu12-11.4.5.107 nvidia-cusparse-cu12-12.1.0.106 nvidia-nccl-cu12-2.20.5 nvidia-nvjitlink-cu12-12.5.40 nvidia-nvtx-cu12-12.1.105 py-1.11.0 pytest-7.1.3 qtconsole-5.5.2 qtpy-2.4.1 responses-0.18.0 rouge-score-0.1.2 tokenizers-0.13.3 transformers-4.23.1 xxhash-3.4.1
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="2" id="HP2NcFKuDepf">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>shrink_dataset <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>base_model <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>colab <span class="op">=</span> <span class="va">False</span></span></code></pre></div>
+</div>
+<div class="cell markdown" data-deletable="false" data-editable="false"
+id="mpqil617Depg">
+<p>Although the value of these variables do not affect the tests that
+will evaluate your code, the output examples distributed throughout this
+notebook are based on a <code>shrink_dataset</code> and a
+<code>base_model</code> variables set as <code>True</code>, and a
+<code>colab</code> variable set as <code>False</code>.</p>
+<p>If you want to perform a full training of the model to obtain its
+real performance, you can use a cloud service like <a
+href="https://colab.research.google.com/">Google Colab</a>.
+<strong>Colab</strong> is a <strong>Jupyter</strong> notebook
+environment that supports both GPU and TPU instances, allowing training
+large scale Deep Learning models. Set the <code>shrink_dataset</code>
+and a <code>base_model</code> variables to <code>False</code>, the
+<code>colab</code> variable to <code>True</code>, and follow the
+instructions provided to you to run the notebook in
+<strong>Colab</strong>.</p>
+<blockquote>
+<p><strong>Note!</strong> To run this notebook in <strong>Colab</strong>
+you will need to upload the <code>datacollator.py</code> file included
+in the repository of the assignment.</p>
+</blockquote>
+</div>
+<div class="cell code" data-execution_count="3" data-deletable="false"
+data-editable="false" id="7rj2PIOXDepg">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> colab:</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="op">!</span> pip install transformers datasets evaluate</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="im">import</span> os</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> os.path.exists(<span class="st">&quot;SemEval2020-Task4-Data/ALL data/Training  Data/subtaskA_data_all.csv&quot;</span>):</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>        <span class="op">!</span> git clone https:<span class="op">//</span>github.com<span class="op">/</span>wangcunxiang<span class="op">/</span>SemEval2020<span class="op">-</span>Task4<span class="op">-</span>Commonsense<span class="op">-</span>Validation<span class="op">-</span><span class="kw">and</span><span class="op">-</span>Explanation.git SemEval2020<span class="op">-</span>Task4<span class="op">-</span>Data</span></code></pre></div>
+</div>
+<div class="cell markdown" data-deletable="false" data-editable="false"
+id="mMYU-eXXDepg">
+<p>You will use the following objects and functions:</p>
+</div>
+<div class="cell code" data-execution_count="15" data-deletable="false"
+data-editable="false" id="3NsmE_FwDepg">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> evaluate</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datasets <span class="im">import</span> Dataset</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> transformers <span class="im">import</span> (AutoTokenizer, AutoModelForMultipleChoice,</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>                          TrainingArguments, Trainer,</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>                          enable_full_determinism)</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datacollator <span class="im">import</span> DataCollatorForMultipleChoice</span></code></pre></div>
+</div>
+<div class="cell markdown" data-deletable="false" data-editable="false"
+id="JioQWyAcDepg">
+<p>When working with Neural Networks, there are a large number of random
+operations such as initializing the weights of the network, shuffling
+the data for training, or choosing samples. This causes that different
+training runs of the same model can lead to different results. To ensure
+reproducibility, i.e. obtaining the same results in the different runs,
+the random number generator must be initialized with a fixed value known
+as seed. In Transformers, this can be done as follows:</p>
+</div>
+<div class="cell code" data-execution_count="16" data-deletable="false"
+data-editable="false" id="f7XhKiC7Deph">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>enable_full_determinism(seed<span class="op">=</span><span class="dv">42</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" data-deletable="false" data-editable="false"
+id="L35uDVTdDeph">
+<blockquote>
+<p><strong>Note!</strong> With models as complex as Neural Networks,
+reproducibility is susceptible to factors such as software versions or
+the hardware on which the models are run. Even with seed initialization,
+there may be slight differences in the results.</p>
+</blockquote>
+<p>Working with Neural Networks also involves defining a number of
+hyperparameters that set the configuration of the model. Finding the
+appropriate hyperparameter values requires training the model with
+different combinations and testing them on the development set. This
+hyperparameter tuning is a costly process that needs multiple rounds of
+experimentation. However, for this assignments, you will use the
+following values:</p>
+</div>
+<div class="cell code" data-execution_count="17" data-deletable="false"
+data-editable="false" id="C_ok2o8FDeph">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>epochs <span class="op">=</span> <span class="dv">3</span>  <span class="co"># Number of epochs to train the model</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>train_batch_size <span class="op">=</span> <span class="dv">8</span>  <span class="co"># Number of examples used per gradient update</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>learning_rate <span class="op">=</span> <span class="fl">1e-5</span>  <span class="co"># The learning rate for the optimizer</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>max_length <span class="op">=</span> <span class="dv">50</span>  <span class="co"># Maximum lenght of the input sequence</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>output_dir <span class="op">=</span> <span class="st">&quot;modelB&quot;</span>  <span class="co"># The output directory where the model will be written to</span></span></code></pre></div>
+</div>
+<section id="loading-the-pre-trained-model---1-mark"
+class="cell markdown" data-deletable="false" data-editable="false"
+id="Lk32PWxzDeph">
+<h2>Loading the Pre-trained Model - [1 Mark]</h2>
+<p>The first step you must perform in this assignment is to load the
+model and its corresponding tokenizer. <strong>Transformers</strong>
+provides support for a wide variety of pre-trained models via specific
+classes. However, the library also allows automatically retrieving a
+model given jut the name or path using <a
+href="https://huggingface.co/docs/transformers/v4.27.2/en/model_doc/auto">AutoClasses</a>.
+To fine-tune a pre-trained model for a downstream task, it is necessary
+to replace the original top layer of the model with a new specific
+output layer. <strong>AutoClasses</strong> also allows you to do this
+automatically for various types of Natural Language Processing tasks.
+For instance, <code>AutoModelForMultipleChoice</code> instantiates the
+model with a top layer for Multiple Choice.</p>
+<p>You must complete the code for the <code>load_model</code> function.
+This functions takes the name of the pre-trained model and should load
+and return both the model, initialized for Text Classification, and its
+corresponding tokenizer. You can get some tips from <a
+href="https://huggingface.co/docs/transformers/autoclass_tutorial">Transformers
+documentation</a>.</p>
+</section>
+<div class="cell code" data-execution_count="18" id="JCoWDkMvDeph">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> load_model(model_name):   <span class="co"># [1 Mark]</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Load the tokenizer with model name</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>    tokenizer <span class="op">=</span> AutoTokenizer.from_pretrained(model_name)</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Load the model using the model name, specifically for multiple choice</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>    model <span class="op">=</span> AutoModelForMultipleChoice.from_pretrained(model_name)</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> model, tokenizer</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="19"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:489,&quot;referenced_widgets&quot;:[&quot;cb2de757f53f4ff9881bbd3884ee034f&quot;,&quot;698cb805aae64616b6c8381d88b00195&quot;,&quot;00af0ef4f0f04fcea4aeaa37fb1c2f07&quot;,&quot;838d1841c1ff427daf547c301f909547&quot;,&quot;08cfab9a1ccb4c4a8adedf70b2c8590c&quot;,&quot;41c1c3c2780d48b2a4d02c186df50cfc&quot;,&quot;257e914c6b1d4ff68ad099ab14c068d4&quot;,&quot;e182876f773a48be9193a2c1964b8d50&quot;,&quot;edf78a13fb95420884c86251cdfdfced&quot;,&quot;842962e1cff84a41b1fefdfb789788ca&quot;,&quot;8399b270171c45499eb25f1f0ca9e0b0&quot;,&quot;8d8245644f5846d3ad403094342926c1&quot;,&quot;c548cda3936c4d1eb719174e82faefed&quot;,&quot;559e7d673dd749aab7739b0fb28e543d&quot;,&quot;9b85350beaad4a169f6205e996f1f65e&quot;,&quot;7bf0c3acb0c242e393b8f84d552f4d5e&quot;,&quot;c6ea751d7569459dafae2f89e1a78d72&quot;,&quot;8d1b9ffc8f5d4f54ba7366d21ecbfc42&quot;,&quot;a3eb258566d04e9594f92264deed8154&quot;,&quot;0fe221d5f6124e1c97dcfeeac08a168f&quot;,&quot;6de571f83588485e88272b5a1cf4f2d4&quot;,&quot;b1a7846e8a79479ba606e5d530b0253e&quot;,&quot;5904a3c351f54d3a936942f8f68f5b6d&quot;,&quot;b59cf5af98154aed8cc06af05b25f811&quot;,&quot;4d40ca2344944d92a0b46ac6119a7745&quot;,&quot;d339a7b29017417980e659f91dea84d7&quot;,&quot;031021250f6d40c29792b07850ecdc5f&quot;,&quot;00cf03e3004644519a51972605168dca&quot;,&quot;bb16439db1a0487092b028baf182aa69&quot;,&quot;c616c72a53fe493480efa61b44b798eb&quot;,&quot;a27428f1162e4053872f69dec228727c&quot;,&quot;cefa8ece435e4a93b0f166532bb86625&quot;,&quot;a4f8a5843e47468bba6200b713b2d3d6&quot;,&quot;9b8d1470912447898da9c481b2e0fdfd&quot;,&quot;20c91c1d3a254ce19d7b2b5549554cf9&quot;,&quot;b6822965cf844103ba188caa9905059a&quot;,&quot;e17e31738b52400683e42d31fec9d16c&quot;,&quot;f3114425276b42a69be7ef2625349048&quot;,&quot;0b98a2f2b8314e8bb958c540d73a63d6&quot;,&quot;2c177cffa8d9412184dc69e9638e214f&quot;,&quot;57c4edf2913048b5a4c235ef01ec0e7e&quot;,&quot;7d32e97bcecb4cca864c373616b5348c&quot;,&quot;5f23ee01112541d4be3b3266004c54d7&quot;,&quot;7258ce65484b44acbdea84517c3b90d6&quot;,&quot;85f304ff9795421aa36ce9eda0c0a059&quot;,&quot;933be6ef9a044f72b5183fc8b64cd00a&quot;,&quot;a7fe6fb5365c4c52acb940e16206fd7d&quot;,&quot;b9f48980cfa34986baa3c4082fc03113&quot;,&quot;2914ebfba658409a97a6c54cb3a3ef39&quot;,&quot;f74e6975f7f6417e8038777674ee6ca2&quot;,&quot;a51bfca80cb549baa0f90f2bfc9a2b1b&quot;,&quot;6ccb8dc019544c5fb87e3becfdf0570f&quot;,&quot;7307248524f648249bd1b3a99f42446f&quot;,&quot;65f13a9cb0604069932a867a20c19c14&quot;,&quot;5b9419e429f34d7d91ce29e5ac737698&quot;,&quot;54796ac9e3b846ba88e80588f2a8ad90&quot;,&quot;12eddeb16b754d8895cc384c5327a432&quot;,&quot;352457b8d49a402a8ce5d2dcd18c48a0&quot;,&quot;c1f5000488004ae6b05ed5e1bd0ad725&quot;,&quot;135df60411514419b9beb6af73847e8f&quot;,&quot;a174e004a88341b18c96581538e15101&quot;,&quot;3e67a22f1fed4b269b89ca02225053f0&quot;,&quot;9d0e6e7da7384203b9f9920577da7650&quot;,&quot;856e7f59b18c4a508ca719c9e7939431&quot;,&quot;afb0d188f2bc4e5f9c74d3ef93d1834c&quot;,&quot;39cc9a1594f246e1bf472e7eebc1ee27&quot;]}"
+data-deletable="false" data-editable="false" id="9Nu5FT6gDeph"
+data-outputId="28cad71e-cdb4-4b4c-8f09-28b5c693227f">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>model_name <span class="op">=</span> <span class="st">&quot;roberta-base&quot;</span> <span class="cf">if</span> base_model <span class="cf">else</span> <span class="st">&quot;roberta-large&quot;</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>model, tokenizer <span class="op">=</span> load_model(model_name)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/usr/local/lib/python3.10/dist-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/huggingface_hub/utils/_token.py:89: UserWarning: 
+The secret `HF_TOKEN` does not exist in your Colab secrets.
+To authenticate with the Hugging Face Hub, create a token in your settings tab (https://huggingface.co/settings/tokens), set it as secret in your Google Colab and restart your session.
+You will be able to reuse this secret in all of your notebooks.
+Please note that authentication is recommended but still optional to access public models or datasets.
+  warnings.warn(
+</code></pre>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;cb2de757f53f4ff9881bbd3884ee034f&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;8d8245644f5846d3ad403094342926c1&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;5904a3c351f54d3a936942f8f68f5b6d&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;9b8d1470912447898da9c481b2e0fdfd&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;85f304ff9795421aa36ce9eda0c0a059&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stderr">
+<pre><code>/usr/local/lib/python3.10/dist-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+</code></pre>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;54796ac9e3b846ba88e80588f2a8ad90&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stderr">
+<pre><code>Some weights of the model checkpoint at roberta-base were not used when initializing RobertaForMultipleChoice: [&#39;lm_head.layer_norm.weight&#39;, &#39;lm_head.dense.bias&#39;, &#39;lm_head.layer_norm.bias&#39;, &#39;lm_head.dense.weight&#39;, &#39;lm_head.bias&#39;]
+- This IS expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForMultipleChoice from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForMultipleChoice were not initialized from the model checkpoint at roberta-base and are newly initialized: [&#39;roberta.pooler.dense.weight&#39;, &#39;roberta.pooler.dense.bias&#39;, &#39;classifier.weight&#39;, &#39;classifier.bias&#39;]
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+</code></pre>
+</div>
+</div>
+<section id="data-pre-processing---1-mark" class="cell markdown"
+data-deletable="false" data-editable="false" id="hxTrMZqtDeph">
+<h2>Data Pre-processing - [1 Mark]</h2>
+<p>The <strong>ComVE</strong> dataset consists of 9997 nonsensical
+statements with their corresponding 3 possible reasons for the train
+set, 997 statements for development and 1000 for test. Each nonsensical
+statements is annotated with a <code>A</code>, <code>B</code> or
+<code>C</code> label depending on which is the correct reason. The
+dataset can be loaded into three <code>DataFrames</code> as follows:</p>
+</section>
+<div class="cell code" data-execution_count="20" data-deletable="false"
+data-editable="false" id="qT9Qr6OeDeph">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> load_data(data_csv, answers_csv, labels):</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>    data <span class="op">=</span> pd.read_csv(data_csv).dropna()</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>    answers <span class="op">=</span> pd.read_csv(answers_csv, header<span class="op">=</span><span class="va">None</span>).rename(columns<span class="op">=</span>{<span class="dv">0</span>: <span class="st">&quot;id&quot;</span>, <span class="dv">1</span>: <span class="st">&quot;label&quot;</span>})</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>    answers[<span class="st">&quot;label&quot;</span>] <span class="op">=</span> answers[<span class="st">&quot;label&quot;</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: labels.index(x))</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> pd.merge(data, answers, on<span class="op">=</span><span class="st">&quot;id&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="23"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:736}"
+data-deletable="false" data-editable="false" id="2IKy-Ii7Deph"
+data-outputId="01a2acba-72cd-4f6e-df4d-e75306393a01">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="st">&quot;A&quot;</span>, <span class="st">&quot;B&quot;</span>, <span class="st">&quot;C&quot;</span>]</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>train_data_csv <span class="op">=</span> <span class="st">&quot;/content/subtaskB_data_all.csv&quot;</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>train_answers_csv <span class="op">=</span> <span class="st">&quot;/content/subtaskB_answers_all.csv&quot;</span></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>train_data <span class="op">=</span> load_data(train_data_csv, train_answers_csv, labels)</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>dev_data_csv <span class="op">=</span> <span class="st">&quot;/content/subtaskB_dev_data.csv&quot;</span></span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>dev_answers_csv <span class="op">=</span> <span class="st">&quot;/content/subtaskB_gold_answers.csv&quot;</span></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>dev_data <span class="op">=</span> load_data(dev_data_csv, dev_answers_csv, labels)</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>test_data_csv <span class="op">=</span> <span class="st">&quot;/content/subtaskB_test_data.csv&quot;</span></span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>test_answers_csv <span class="op">=</span> <span class="st">&quot;/content/subtaskB_test_gold_answers.csv&quot;</span></span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>test_data <span class="op">=</span> load_data(test_data_csv, test_answers_csv, labels)</span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> shrink_dataset:</span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a>    train_data <span class="op">=</span> train_data.sample(n<span class="op">=</span><span class="dv">100</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a>    dev_data <span class="op">=</span> dev_data.sample(n<span class="op">=</span><span class="dv">100</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a>    test_data <span class="op">=</span> test_data.sample(n<span class="op">=</span><span class="dv">100</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb20-15"><a href="#cb20-15" aria-hidden="true" tabindex="-1"></a>train_data</span></code></pre></div>
+<div class="output execute_result" data-execution_count="23">
+
+  <div id="df-7a6840e8-2837-40a8-a50d-601d82400c3c" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>FalseSent</th>
+      <th>OptionA</th>
+      <th>OptionB</th>
+      <th>OptionC</th>
+      <th>label</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>4122</th>
+      <td>4122</td>
+      <td>You are likely to find a computer in the bathroom</td>
+      <td>The computer needs to take a shower in the bat...</td>
+      <td>The computer may be broken in the bathroom</td>
+      <td>The computer won't walk into the bathroom</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>4065</th>
+      <td>4065</td>
+      <td>Something you find in a stone is a blue flower</td>
+      <td>Sometimes stones are heavier than flowers</td>
+      <td>Sometimes stones are lighter than flowers</td>
+      <td>Flowers cannot grow on stones</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>1731</th>
+      <td>1731</td>
+      <td>People use electricity to buy things</td>
+      <td>It is impossible to buy things with electricity</td>
+      <td>Electricity is essential to live</td>
+      <td>Many appliances in home works on electricity</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4740</th>
+      <td>4740</td>
+      <td>There is a way to cure every kind of cancer now</td>
+      <td>Cancer can kill people in a very short time</td>
+      <td>There is not a way to cure every kind of cance...</td>
+      <td>There is currently no vaccine to prevent peopl...</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>6391</th>
+      <td>6392</td>
+      <td>You can break the cement column</td>
+      <td>Cement column is so hard</td>
+      <td>Cement column is gray</td>
+      <td>Cement column has many shapes</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>6835</th>
+      <td>6836</td>
+      <td>Tall is a disease</td>
+      <td>Tall is a normal physiological phenomenon</td>
+      <td>Tall is determined by both environment and gene</td>
+      <td>Tall is an external expression</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>5399</th>
+      <td>5399</td>
+      <td>Tara spread some gasoline on her bread</td>
+      <td>the price of gasoline has been raised rapidly</td>
+      <td>people have jam with bread</td>
+      <td>people do not have bread with gasoline</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>6182</th>
+      <td>6183</td>
+      <td>he went to the school to deposit a sum of money</td>
+      <td>students take money to their school to pay the...</td>
+      <td>building a school costs a lot of money</td>
+      <td>the school has no place to save money</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>7536</th>
+      <td>7538</td>
+      <td>You can only use chopsticks to eat noodles</td>
+      <td>You can also use forks to eat noodles</td>
+      <td>Many Chinese people use chopsticks to eat noodles</td>
+      <td>There are different types of noodles in the world</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>6768</th>
+      <td>6769</td>
+      <td>Running is a disease</td>
+      <td>Running is a form of exercise.</td>
+      <td>Running is an aerobic exercise</td>
+      <td>Running can be aerobic</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>100 rows × 6 columns</p>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-7a6840e8-2837-40a8-a50d-601d82400c3c')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-7a6840e8-2837-40a8-a50d-601d82400c3c button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-7a6840e8-2837-40a8-a50d-601d82400c3c');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-09c97245-098d-4f51-b6e5-7cba24bbe1d8">
+  <button class="colab-df-quickchart" onclick="quickchart('df-09c97245-098d-4f51-b6e5-7cba24bbe1d8')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-09c97245-098d-4f51-b6e5-7cba24bbe1d8 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+  <div id="id_55be5dd7-5f09-4f78-a6e7-5d79d23e051b">
+    <style>
+      .colab-df-generate {
+        background-color: #E8F0FE;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        display: none;
+        fill: #1967D2;
+        height: 32px;
+        padding: 0 0 0 0;
+        width: 32px;
+      }
+
+      .colab-df-generate:hover {
+        background-color: #E2EBFA;
+        box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+        fill: #174EA6;
+      }
+
+      [theme=dark] .colab-df-generate {
+        background-color: #3B4455;
+        fill: #D2E3FC;
+      }
+
+      [theme=dark] .colab-df-generate:hover {
+        background-color: #434B5C;
+        box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+        filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+        fill: #FFFFFF;
+      }
+    </style>
+    <button class="colab-df-generate" onclick="generateWithVariable('train_data')"
+            title="Generate code using this dataframe."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M7,19H8.4L18.45,9,17,7.55,7,17.6ZM5,21V16.75L18.45,3.32a2,2,0,0,1,2.83,0l1.4,1.43a1.91,1.91,0,0,1,.58,1.4,1.91,1.91,0,0,1-.58,1.4L9.25,21ZM18.45,9,17,7.55Zm-12,3A5.31,5.31,0,0,0,4.9,8.1,5.31,5.31,0,0,0,1,6.5,5.31,5.31,0,0,0,4.9,4.9,5.31,5.31,0,0,0,6.5,1,5.31,5.31,0,0,0,8.1,4.9,5.31,5.31,0,0,0,12,6.5,5.46,5.46,0,0,0,6.5,12Z"/>
+  </svg>
+    </button>
+    <script>
+      (() => {
+      const buttonEl =
+        document.querySelector('#id_55be5dd7-5f09-4f78-a6e7-5d79d23e051b button.colab-df-generate');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      buttonEl.onclick = () => {
+        google.colab.notebook.generateWithVariable('train_data');
+      }
+      })();
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell markdown" data-deletable="false" data-editable="false"
+id="pYIs9L9QDeph">
+<p>Notice that the <code>load_data</code> function translates the labels
+into their corresponding numerical index: <code>0</code>, <code>1</code>
+and <code>2</code>.</p>
+<p><a href="https://huggingface.co/docs/datasets/index">Datasets</a> is
+a library for dataset management that provides a set of tools to
+manipulate data in a easy and efficient way. Since it is fully
+integrated with <strong>Transformers</strong>, it is very convenient to
+use both libraries together. <strong>Datasets</strong> allows accessing
+and sharing datasets through the <a
+href="https://huggingface.co/datasets">Hugging Face Hub</a>. The core
+component of this library is the <a
+href="https://huggingface.co/docs/datasets/v2.10.0/en/package_reference/main_classes#datasets.Dataset">Dataset</a>
+class that implements an <a
+href="https://arrow.apache.org/docs/python/generated/pyarrow.Table.html">Apache
+Arrow table</a>. Similar to a <strong>pandas</strong>
+<code>DataFrame</code>, a <code>Dataset</code> object stores a table
+where each row corresponds to an example of the dataset and each column
+contains a different type of data. There are different ways to load the
+data into a <code>Dataset</code>, for example, from a
+<code>Dataframe</code>:</p>
+</div>
+<div class="cell code" data-execution_count="24"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-deletable="false" data-editable="false" id="jTrZNaIYDeph"
+data-outputId="0906abd4-049f-4b44-ec04-9cff8f5755e2">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>train_dataset <span class="op">=</span> Dataset.from_pandas(train_data)</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>dev_dataset <span class="op">=</span> Dataset.from_pandas(dev_data)</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>test_dataset <span class="op">=</span> Dataset.from_pandas(test_data)</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>train_dataset[<span class="dv">0</span>]</span></code></pre></div>
+<div class="output execute_result" data-execution_count="24">
+<pre><code>{&#39;id&#39;: 4122,
+ &#39;FalseSent&#39;: &#39;You are likely to find a computer in the bathroom&#39;,
+ &#39;OptionA&#39;: &#39;The computer needs to take a shower in the bathroom&#39;,
+ &#39;OptionB&#39;: &#39;The computer may be broken in the bathroom&#39;,
+ &#39;OptionC&#39;: &quot;The computer won&#39;t walk into the bathroom&quot;,
+ &#39;label&#39;: 1,
+ &#39;__index_level_0__&#39;: 4122}</code></pre>
+</div>
+</div>
+<div class="cell markdown" data-deletable="false" data-editable="false"
+id="mhWiFNw0Deph">
+<p>One of the most powerful <strong>Datasets</strong> tools is the <a
+href="https://huggingface.co/docs/datasets/v2.10.0/en/nlp_process#map">map</a>
+function which allows pre-processing the dataset in batches. The
+function takes another callable as argument and applies it to every row
+in the <code>Dataset</code>. The goal of the next exercise is to
+implement a function to tokenize the statement pairs that will be used
+as a parameter of the <code>map</code> function.</p>
+<p>You must complete the code for the <code>preprocess_data</code>
+function. This function takes a batch of examples from a
+<code>Dataset</code>, the tokenizer returned by <code>load_model</code>
+and the <code>max_length</code> hyperparameter. The function should make
+three copies of each statement in the <code>FalseSent</code> field and
+pair them with each of the possible reasons in <code>OptionA</code>,
+<code>OptionB</code> and <code>OptionC</code>. Then, the
+statement-reason pairs must be tokenized jointly. The tokenizer must pad
+and truncate the sequences to the <code>max_length</code> value. You can
+use the <a
+href="https://huggingface.co/docs/transformers/v4.27.2/en/preprocessing">Preprocessing</a>
+and the <a
+href="https://huggingface.co/docs/transformers/v4.27.2/en/main_classes/tokenizer">Tokenizer</a>
+documentation as reference.</p>
+<p>The <code>tokenizer</code> should return a <a
+href="https://huggingface.co/docs/transformers/v4.27.2/en/main_classes/tokenizer#transformers.BatchEncoding">BatchEncoding</a>
+object with two fields for each data example:</p>
+<ul>
+<li><em>input_ids</em>: A list of token indices that will be used as the
+input of the model.</li>
+<li><em>attention_mask</em>: A list of indices masking out which tokens
+the model should not attend to.</li>
+</ul>
+<p>After running the tokenizer, <code>preprocess_data</code> should
+unflatten the <code>input_ids</code> and <code>attention_mask</code>
+corresponding to the same statement, i.e., for each example, the value
+of <code>input_ids</code> should be a list of three lists of token
+indices and, similarly, the value of <code>attention_mask</code> should
+be a list of three lists of masking indices. The
+<strong>Transformers</strong> documentation provides a <a
+href="https://huggingface.co/docs/transformers/tasks/multiple_choice">guide
+for Multiple Choice</a> problems that you can use as reference. The
+<code>preprocess_data</code> should return the output of the
+unflattening step.</p>
+<p>The <code>map</code> function takes the <code>input_ids</code> and
+<code>attention_mask</code> fields and inserts them into the
+<code>Dataset</code> as new two columns. For example, the result for the
+first row in the <code>Dataset</code> should look like:</p>
+<blockquote>
+<pre>
+{'id': 4122, 'FalseSent': 'You are likely to find a computer in the bathroom', 'OptionA': 'The computer needs to take a shower in the bathroom', 'OptionB': 'The computer may be broken in the bathroom', 'OptionC': "The computer won't walk into the bathroom", 'label': 1, '__index_level_0__': 4122, 'input_ids': [[0, 1185, 32, 533, 7, 465, 10, 3034, 11, 5, 8080, 2, 2, 133, 3034, 782, 7, 185, 10, 9310, 11, 5, 8080, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [0, 1185, 32, 533, 7, 465, 10, 3034, 11, 5, 8080, 2, 2, 133, 3034, 189, 28, 3187, 11, 5, 8080, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [0, 1185, 32, 533, 7, 465, 10, 3034, 11, 5, 8080, 2, 2, 133, 3034, 351, 75, 1656, 88, 5, 8080, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]], 'attention_mask': [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]}
+</pre>
+</blockquote>
+<p>The <code>input_ids</code> field contains three lists, one for each
+statement-reason pair. Each value in each list of <code>input_ids</code>
+represents a sub-word of the <code>tokenizer</code> vocabulary. For the
+example above, <code>input_ids</code> corresponds to the following thee
+sequences of sub-words:</p>
+<blockquote>
+<pre>
+['&lt;s&gt;', 'You', 'Ġare', 'Ġlikely', 'Ġto', 'Ġfind', 'Ġa', 'Ġcomputer', 'Ġin', 'Ġthe', 'Ġbathroom', '&lt;/s&gt;', '&lt;/s&gt;', 'The', 'Ġcomputer', 'Ġneeds', 'Ġto', 'Ġtake', 'Ġa', 'Ġshower', 'Ġin', 'Ġthe', 'Ġbathroom', '&lt;/s&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;']
+
+['&lt;s&gt;', 'You', 'Ġare', 'Ġlikely', 'Ġto', 'Ġfind', 'Ġa', 'Ġcomputer', 'Ġin', 'Ġthe', 'Ġbathroom', '&lt;/s&gt;', '&lt;/s&gt;', 'The', 'Ġcomputer', 'Ġmay', 'Ġbe', 'Ġbroken', 'Ġin', 'Ġthe', 'Ġbathroom', '&lt;/s&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;']
+
+['&lt;s&gt;', 'You', 'Ġare', 'Ġlikely', 'Ġto', 'Ġfind', 'Ġa', 'Ġcomputer', 'Ġin', 'Ġthe', 'Ġbathroom', '&lt;/s&gt;', '&lt;/s&gt;', 'The', 'Ġcomputer', 'Ġwon', "'t", 'Ġwalk', 'Ġinto', 'Ġthe', 'Ġbathroom', '&lt;/s&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;', '&lt;pad&gt;']
+</pre>
+</blockquote>
+<p>Notice that the <strong>Hugging Face</strong> implementation of
+<strong>RoBERTa</strong>'s tokenizer uses the <code>&lt;s&gt;</code>
+token equivalently to <strong>BERT</strong>'s <code>[CLS]</code> token
+and the <code>&lt;/s&gt;</code> token to mark both the end and the
+separation of the sentences. The <code>Ġ</code> character indicates when
+there is a blank space before the token in the original text. This helps
+to know which tokens are the first sub-words of the words.</p>
+</div>
+<div class="cell code" data-execution_count="25" id="tLj_vD4IDepi">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> preprocess_data(examples, tokenizer, max_length):   <span class="co"># [1 Mark]</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Prepare the list of contexts and options</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>    contexts <span class="op">=</span> examples[<span class="st">&quot;FalseSent&quot;</span>]</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>    options <span class="op">=</span> <span class="bu">list</span>(<span class="bu">zip</span>(examples[<span class="st">&quot;OptionA&quot;</span>], examples[<span class="st">&quot;OptionB&quot;</span>], examples[<span class="st">&quot;OptionC&quot;</span>]))</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Initialize lists to hold the pairs</span></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>    input_pairs <span class="op">=</span> []</span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> context, (option_a, option_b, option_c) <span class="kw">in</span> <span class="bu">zip</span>(contexts, options):</span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Pair the context with each option</span></span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>        input_pairs.append((context, option_a))</span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a>        input_pairs.append((context, option_b))</span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a>        input_pairs.append((context, option_c))</span>
+<span id="cb23-14"><a href="#cb23-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-15"><a href="#cb23-15" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Tokenize the pairs with padding and truncation</span></span>
+<span id="cb23-16"><a href="#cb23-16" aria-hidden="true" tabindex="-1"></a>    tokenized_pairs <span class="op">=</span> tokenizer(</span>
+<span id="cb23-17"><a href="#cb23-17" aria-hidden="true" tabindex="-1"></a>        [pair[<span class="dv">0</span>] <span class="cf">for</span> pair <span class="kw">in</span> input_pairs],</span>
+<span id="cb23-18"><a href="#cb23-18" aria-hidden="true" tabindex="-1"></a>        [pair[<span class="dv">1</span>] <span class="cf">for</span> pair <span class="kw">in</span> input_pairs],</span>
+<span id="cb23-19"><a href="#cb23-19" aria-hidden="true" tabindex="-1"></a>        truncation<span class="op">=</span><span class="va">True</span>,</span>
+<span id="cb23-20"><a href="#cb23-20" aria-hidden="true" tabindex="-1"></a>        padding<span class="op">=</span><span class="st">&#39;max_length&#39;</span>,</span>
+<span id="cb23-21"><a href="#cb23-21" aria-hidden="true" tabindex="-1"></a>        max_length<span class="op">=</span>max_length,</span>
+<span id="cb23-22"><a href="#cb23-22" aria-hidden="true" tabindex="-1"></a>        return_tensors<span class="op">=</span><span class="st">&quot;pt&quot;</span></span>
+<span id="cb23-23"><a href="#cb23-23" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb23-24"><a href="#cb23-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-25"><a href="#cb23-25" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Unflatten the tokenized pairs</span></span>
+<span id="cb23-26"><a href="#cb23-26" aria-hidden="true" tabindex="-1"></a>    input_ids <span class="op">=</span> tokenized_pairs[<span class="st">&quot;input_ids&quot;</span>].view(<span class="bu">len</span>(contexts), <span class="dv">3</span>, <span class="op">-</span><span class="dv">1</span>)</span>
+<span id="cb23-27"><a href="#cb23-27" aria-hidden="true" tabindex="-1"></a>    attention_mask <span class="op">=</span> tokenized_pairs[<span class="st">&quot;attention_mask&quot;</span>].view(<span class="bu">len</span>(contexts), <span class="dv">3</span>, <span class="op">-</span><span class="dv">1</span>)</span>
+<span id="cb23-28"><a href="#cb23-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-29"><a href="#cb23-29" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Convert tensors to lists</span></span>
+<span id="cb23-30"><a href="#cb23-30" aria-hidden="true" tabindex="-1"></a>    input_ids <span class="op">=</span> input_ids.tolist()</span>
+<span id="cb23-31"><a href="#cb23-31" aria-hidden="true" tabindex="-1"></a>    attention_mask <span class="op">=</span> attention_mask.tolist()</span>
+<span id="cb23-32"><a href="#cb23-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-33"><a href="#cb23-33" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> {</span>
+<span id="cb23-34"><a href="#cb23-34" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;input_ids&quot;</span>: input_ids,</span>
+<span id="cb23-35"><a href="#cb23-35" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;attention_mask&quot;</span>: attention_mask</span>
+<span id="cb23-36"><a href="#cb23-36" aria-hidden="true" tabindex="-1"></a>    }</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="26"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:176,&quot;referenced_widgets&quot;:[&quot;cc4bf3dd5eec4033bcf594f909c639bf&quot;,&quot;f63f7d111e174fabb531d1e5c8501a98&quot;,&quot;ba8a7e4101b04f93b3781c59f2544376&quot;,&quot;843d6fb8e61941418e5bb289abe39704&quot;,&quot;4bf666847e754d05acdcc08287f50f63&quot;,&quot;99ff02490397420187635ca655cc7e12&quot;,&quot;984a0dbaa3ae4fd9b70ddcb724196c11&quot;,&quot;994e1ffb3106432b8e61d14c1fdafe50&quot;,&quot;1f7f41947f1c4460b9487174e96fc709&quot;,&quot;4565acdf4804479980e36a1f6156c03a&quot;,&quot;3c162f4697e94285956ec1fdeae63113&quot;,&quot;6bcf76c4604c44bcaf4a2a7af644146c&quot;,&quot;1ee1f91dc789420f87f6ecfb4a52b168&quot;,&quot;7fb042fd2694419c843b6229e9b59c44&quot;,&quot;c55df64be55d419bb235b1802c97a26d&quot;,&quot;98f08d5d200a4e7aa324e2dad40eed74&quot;,&quot;4ae5f8e7c52f4c1391cf0ee13d873648&quot;,&quot;5d43a17f5f2d488fbf883ab534927ef8&quot;,&quot;3fe26576244c4d53b8dc2536fe8f9697&quot;,&quot;cd40e36f335b4190a29eee060af00326&quot;,&quot;8cf5291355c04d9b9a9454f8a2c44676&quot;,&quot;a2a71dfc6f94465f8e990c824cef4ac5&quot;,&quot;3a9cd0d5498241eab4d34abf6dda6cbb&quot;,&quot;504d132731014632aab595ba63c9590f&quot;,&quot;601e4a3db7844317b35a046d3f6e6fdf&quot;,&quot;a4cfd85d5f664cd78bdc3196160a9bb9&quot;,&quot;f93c8c7010b84b23ac72a7bf1bec133a&quot;,&quot;49ac99a090cc4f25b009a780ba502a9c&quot;,&quot;a0e5da3b141943318b2c4a6c1aff8a47&quot;,&quot;897888568a124d2b86c2c806135aa5e1&quot;,&quot;8087fa8d4d954a74b59c1bc0dbf4d459&quot;,&quot;5c667d08f0d4490f80d59a8f51467358&quot;,&quot;83a3d1d213284473a272486fd65ed72e&quot;]}"
+data-deletable="false" data-editable="false" id="zyLvZ14hDepi"
+data-outputId="e20c9a3d-a3c0-4c0c-fc20-28267f492f25">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>train_dataset <span class="op">=</span> train_dataset.<span class="bu">map</span>(<span class="kw">lambda</span> x: preprocess_data(x, tokenizer, max_length), batched<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>dev_dataset <span class="op">=</span> dev_dataset.<span class="bu">map</span>(<span class="kw">lambda</span> x: preprocess_data(x, tokenizer, max_length), batched<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>test_dataset <span class="op">=</span> test_dataset.<span class="bu">map</span>(<span class="kw">lambda</span> x: preprocess_data(x, tokenizer, max_length), batched<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(train_dataset[<span class="dv">0</span>])</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;&quot;</span>)</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> seq <span class="kw">in</span> train_dataset[<span class="dv">0</span>][<span class="st">&quot;input_ids&quot;</span>]:</span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(tokenizer.convert_ids_to_tokens(seq))</span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;&quot;</span>)</span></code></pre></div>
+<div class="output display_data">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;cc4bf3dd5eec4033bcf594f909c639bf&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;6bcf76c4604c44bcaf4a2a7af644146c&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;3a9cd0d5498241eab4d34abf6dda6cbb&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stdout">
+<pre><code>{&#39;id&#39;: 4122, &#39;FalseSent&#39;: &#39;You are likely to find a computer in the bathroom&#39;, &#39;OptionA&#39;: &#39;The computer needs to take a shower in the bathroom&#39;, &#39;OptionB&#39;: &#39;The computer may be broken in the bathroom&#39;, &#39;OptionC&#39;: &quot;The computer won&#39;t walk into the bathroom&quot;, &#39;label&#39;: 1, &#39;__index_level_0__&#39;: 4122, &#39;input_ids&#39;: [[0, 1185, 32, 533, 7, 465, 10, 3034, 11, 5, 8080, 2, 2, 133, 3034, 782, 7, 185, 10, 9310, 11, 5, 8080, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [0, 1185, 32, 533, 7, 465, 10, 3034, 11, 5, 8080, 2, 2, 133, 3034, 189, 28, 3187, 11, 5, 8080, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [0, 1185, 32, 533, 7, 465, 10, 3034, 11, 5, 8080, 2, 2, 133, 3034, 351, 75, 1656, 88, 5, 8080, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]], &#39;attention_mask&#39;: [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]}
+
+[&#39;&lt;s&gt;&#39;, &#39;You&#39;, &#39;Ġare&#39;, &#39;Ġlikely&#39;, &#39;Ġto&#39;, &#39;Ġfind&#39;, &#39;Ġa&#39;, &#39;Ġcomputer&#39;, &#39;Ġin&#39;, &#39;Ġthe&#39;, &#39;Ġbathroom&#39;, &#39;&lt;/s&gt;&#39;, &#39;&lt;/s&gt;&#39;, &#39;The&#39;, &#39;Ġcomputer&#39;, &#39;Ġneeds&#39;, &#39;Ġto&#39;, &#39;Ġtake&#39;, &#39;Ġa&#39;, &#39;Ġshower&#39;, &#39;Ġin&#39;, &#39;Ġthe&#39;, &#39;Ġbathroom&#39;, &#39;&lt;/s&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;]
+
+[&#39;&lt;s&gt;&#39;, &#39;You&#39;, &#39;Ġare&#39;, &#39;Ġlikely&#39;, &#39;Ġto&#39;, &#39;Ġfind&#39;, &#39;Ġa&#39;, &#39;Ġcomputer&#39;, &#39;Ġin&#39;, &#39;Ġthe&#39;, &#39;Ġbathroom&#39;, &#39;&lt;/s&gt;&#39;, &#39;&lt;/s&gt;&#39;, &#39;The&#39;, &#39;Ġcomputer&#39;, &#39;Ġmay&#39;, &#39;Ġbe&#39;, &#39;Ġbroken&#39;, &#39;Ġin&#39;, &#39;Ġthe&#39;, &#39;Ġbathroom&#39;, &#39;&lt;/s&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;]
+
+[&#39;&lt;s&gt;&#39;, &#39;You&#39;, &#39;Ġare&#39;, &#39;Ġlikely&#39;, &#39;Ġto&#39;, &#39;Ġfind&#39;, &#39;Ġa&#39;, &#39;Ġcomputer&#39;, &#39;Ġin&#39;, &#39;Ġthe&#39;, &#39;Ġbathroom&#39;, &#39;&lt;/s&gt;&#39;, &#39;&lt;/s&gt;&#39;, &#39;The&#39;, &#39;Ġcomputer&#39;, &#39;Ġwon&#39;, &quot;&#39;t&quot;, &#39;Ġwalk&#39;, &#39;Ġinto&#39;, &#39;Ġthe&#39;, &#39;Ġbathroom&#39;, &#39;&lt;/s&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;, &#39;&lt;pad&gt;&#39;]
+
+</code></pre>
+</div>
+</div>
+<section id="fine-tuning---4-marks" class="cell markdown"
+data-deletable="false" data-editable="false" id="7SfBoXCvDepi">
+<h2>Fine-tuning - [4 Marks]</h2>
+<p>Although it is possible to write customized training loops for the
+<strong>Transormers</strong> models using <strong>keras</strong> or
+<strong>pytorch</strong>, <strong>Transformers</strong> provides a <a
+href="https://huggingface.co/docs/transformers/v4.27.2/en/main_classes/trainer">Trainer</a>
+API that allows fine-tuning efficiently with a few simple steps. The
+training is highly customizable through with a wide range of options and
+hyperparameters that are handled by the <a
+href="https://huggingface.co/docs/transformers/v4.27.2/en/main_classes/trainer#transformers.TrainingArguments">TrainingArguments</a>
+class. Your next goal is to create both the
+<code>TrainingArguments</code> and <code>Trainer</code> objects that
+will be used to fine-tune <strong>RoBERTa</strong>. See the <a
+href="https://huggingface.co/docs/transformers/training">documentation</a>
+for an introduction on how to perform these steps.</p>
+<p>You must complete the code for the
+<code>create_training_arguments</code> function. This function takes as
+arguments the <code>epochs</code>, <code>train_batch_size</code> and
+<code>learning_rate</code> hyperparameters along with the
+<code>output_dir</code>. The function should use these arguments to
+create and return a <code>TrainingArguments</code> object. During the
+training, the model must be evaluated on the development test after
+every epoch. <code>TrainingArguments</code> should include this
+strategy.</p>
+<blockquote>
+<p><strong>Important!</strong> By default, <code>Trainer</code> saves a
+checkpoint of the model every 500 training steps. For this assignment,
+avoid this behavior by setting <code>save_strategy="no"</code> when
+creating the <code>TrainingArguments</code>.</p>
+</blockquote>
+</section>
+<div class="cell code" data-execution_count="27" id="CewTLliNDepi">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> create_training_arguments(epochs, train_batch_size, learning_rate, output_dir):   <span class="co"># [1 Mark]</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>    training_args <span class="op">=</span> TrainingArguments(</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>        output_dir<span class="op">=</span>output_dir,</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>        num_train_epochs<span class="op">=</span>epochs,</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>        per_device_train_batch_size<span class="op">=</span>train_batch_size,</span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>        learning_rate<span class="op">=</span>learning_rate,</span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>        evaluation_strategy<span class="op">=</span><span class="st">&quot;epoch&quot;</span>,  <span class="co"># Evaluate after every epoch</span></span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>        save_strategy<span class="op">=</span><span class="st">&quot;no&quot;</span>,  <span class="co"># Avoid saving checkpoint every 500 steps</span></span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> training_args</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="28" data-deletable="false"
+data-editable="false" id="ASflHPEJDepi">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>train_args <span class="op">=</span> create_training_arguments(epochs, train_batch_size, learning_rate, output_dir)</span></code></pre></div>
+</div>
+<div class="cell markdown" data-deletable="false" data-editable="false"
+id="5EMcJZeGDepi">
+<p>Next, you will create a <code>Trainer</code> object with the training
+arguments. When the input format of a task has some special
+characteristic, the <code>Trainer</code> must be created with a data
+collator that can handle the batches of examples accordingly during the
+training. This is the case of Multiple Choice problems since the input
+of each example is a list of sequences. <strong>Transformers</strong>
+provides a set of <a
+href="https://huggingface.co/docs/transformers/main_classes/data_collator">DataCollator</a>
+objects for different tasks, but not for Multiple Choice. However, a
+<code>DataCollatorForMultipleChoice</code> is provided along with this
+notebook.</p>
+<p>You must complete the code for the <code>create_trainer</code>
+function. The function takes as input the model returned by
+<code>load_model</code>, the <code>TrainingArguments</code> created by
+<code>create_training_arguments</code> and the train and development
+<code>Datasets</code>. The function also takes the
+<code>tokenizer</code> returned by <code>load_model</code> that is
+required to initialize <code>DataCollatorForMultipleChoice</code>. The
+<code>create_trainer</code> function must create and return a
+<code>Trainer</code> object with the model, the training arguments and a
+<code>DataCollatorForMultipleChoice</code> object. The
+<code>Trainer</code> must be set up so that the train
+<code>Dataset</code> is used for training and the development
+<code>Dataset</code> is used to evaluate the model during the
+training.</p>
+</div>
+<div class="cell code" data-execution_count="32" id="zccyIfJSDepi">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> create_trainer(model, train_args, train_dataset, dev_dataset, tokenizer):   <span class="co"># [1 Mark]</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Initialize the DataCollatorForMultipleChoice</span></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>    data_collator <span class="op">=</span> DataCollatorForMultipleChoice(tokenizer<span class="op">=</span>tokenizer)</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Create and return the Trainer object</span></span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>    trainer <span class="op">=</span> Trainer(</span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>        model<span class="op">=</span>model,</span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a>        args<span class="op">=</span>train_args,</span>
+<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a>        train_dataset<span class="op">=</span>train_dataset,</span>
+<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a>        eval_dataset<span class="op">=</span>dev_dataset,</span>
+<span id="cb31-12"><a href="#cb31-12" aria-hidden="true" tabindex="-1"></a>        data_collator<span class="op">=</span>data_collator,</span>
+<span id="cb31-13"><a href="#cb31-13" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb31-14"><a href="#cb31-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-15"><a href="#cb31-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> trainer</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="33" data-deletable="false"
+data-editable="false" id="6FpTrleJDepi">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>trainer <span class="op">=</span> create_trainer(model, train_args, train_dataset, dev_dataset, tokenizer)</span></code></pre></div>
+</div>
+<div class="cell markdown" data-deletable="false" data-editable="false"
+id="Mf8-ClKXDepi">
+<p>The <code>trainer</code> object created by
+<code>create_trainer</code> is ready to fine-tune the model by just
+running:</p>
+</div>
+<div class="cell code" data-execution_count="35"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:675}"
+data-deletable="false" data-editable="false" id="mutlJP5SDepi"
+data-outputId="aeac1319-b438-40d5-96fd-48fe728e87ff">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>trainer.train()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>The following columns in the training set don&#39;t have a corresponding argument in `RobertaForMultipleChoice.forward` and have been ignored: id, FalseSent, OptionB, __index_level_0__, OptionC, OptionA. If id, FalseSent, OptionB, __index_level_0__, OptionC, OptionA are not expected by `RobertaForMultipleChoice.forward`,  you can safely ignore this message.
+***** Running training *****
+  Num examples = 100
+  Num Epochs = 3
+  Instantaneous batch size per device = 8
+  Total train batch size (w. parallel, distributed &amp; accumulation) = 8
+  Gradient Accumulation steps = 1
+  Total optimization steps = 39
+</code></pre>
+</div>
+<div class="output display_data">
+
+    <div>
+      
+      <progress value='39' max='39' style='width:300px; height:20px; vertical-align: middle;'></progress>
+      [39/39 09:34, Epoch 3/3]
+    </div>
+    <table border="1" class="dataframe">
+  <thead>
+ <tr style="text-align: left;">
+      <th>Epoch</th>
+      <th>Training Loss</th>
+      <th>Validation Loss</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>No log</td>
+      <td>1.097442</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>No log</td>
+      <td>1.097442</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>No log</td>
+      <td>1.097442</td>
+    </tr>
+  </tbody>
+</table><p>
+</div>
+<div class="output stream stderr">
+<pre><code>The following columns in the evaluation set don&#39;t have a corresponding argument in `RobertaForMultipleChoice.forward` and have been ignored: id, FalseSent, OptionB, __index_level_0__, OptionC, OptionA. If id, FalseSent, OptionB, __index_level_0__, OptionC, OptionA are not expected by `RobertaForMultipleChoice.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 8
+The following columns in the evaluation set don&#39;t have a corresponding argument in `RobertaForMultipleChoice.forward` and have been ignored: id, FalseSent, OptionB, __index_level_0__, OptionC, OptionA. If id, FalseSent, OptionB, __index_level_0__, OptionC, OptionA are not expected by `RobertaForMultipleChoice.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 8
+The following columns in the evaluation set don&#39;t have a corresponding argument in `RobertaForMultipleChoice.forward` and have been ignored: id, FalseSent, OptionB, __index_level_0__, OptionC, OptionA. If id, FalseSent, OptionB, __index_level_0__, OptionC, OptionA are not expected by `RobertaForMultipleChoice.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 100
+  Batch size = 8
+
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="35">
+<pre><code>TrainOutput(global_step=39, training_loss=1.0956322107559595, metrics={&#39;train_runtime&#39;: 586.8042, &#39;train_samples_per_second&#39;: 0.511, &#39;train_steps_per_second&#39;: 0.066, &#39;total_flos&#39;: 23124787470000.0, &#39;train_loss&#39;: 1.0956322107559595, &#39;epoch&#39;: 3.0})</code></pre>
+</div>
+</div>
+<div class="cell markdown" data-deletable="false" data-editable="false"
+id="iAPVZxvCDepi">
+<p>After training, the model can be used to make predictions on
+unlabeled data using the <a
+href="https://huggingface.co/docs/transformers/v4.27.2/en/main_classes/trainer#transformers.Trainer.predict">predict</a>
+method of the <code>Trainer</code> class.</p>
+<p>You must complete the code for the <code>make_predictions</code>
+function. The function takes as input the <code>Trainer</code> object
+and test <code>Dataset</code>. The function must run the
+<code>predict</code> method on the input data. The <code>predict</code>
+method will return a <code>NamedTuple</code> including a
+<strong>numpy</strong> array with the predictions. For each statement in
+the input, the array contains a vector with the logits (the values used
+as input of the softmax) predicted for every label corresponding to a
+possible reason. The output of <code>make_predictions</code> must
+include only the index of the label with the highest logit value. For
+example, if the prediction for one statement is
+<code>[-0.856213458, 1.39899943, -0.703246286e]</code>, the output for
+that example should be <code>1</code>. For this, you can apply the <a
+href="https://numpy.org/doc/stable/reference/generated/numpy.argmax.html">argmax</a>
+method along the last axis of the <strong>numpy</strong> array.</p>
+</div>
+<div class="cell code" data-execution_count="36" id="s_gKydP-Depi">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> make_predictions(trainer, test_dataset):   <span class="co"># [2 Marks]</span></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>    <span class="co"># get predictions on test dataset</span></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>    predictions <span class="op">=</span> trainer.predict(test_dataset)</span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Get the logits from the predictions</span></span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>    logits <span class="op">=</span> predictions.predictions</span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Use argmax to obtain index of the label with the highest logit value for each example</span></span>
+<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a>    predicted_labels <span class="op">=</span> np.argmax(logits, axis<span class="op">=-</span><span class="dv">1</span>)</span>
+<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-13"><a href="#cb37-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> predicted_labels</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="37"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:877}"
+data-deletable="false" data-editable="false" id="33MPmZvrDepj"
+data-outputId="17d39988-c79a-4df7-c692-f159a36f0344">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>predictions <span class="op">=</span> make_predictions(trainer, test_dataset)</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>test_data[<span class="st">&quot;prediction&quot;</span>] <span class="op">=</span> predictions</span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>test_data</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>The following columns in the test set don&#39;t have a corresponding argument in `RobertaForMultipleChoice.forward` and have been ignored: id, FalseSent, OptionB, __index_level_0__, OptionC, OptionA. If id, FalseSent, OptionB, __index_level_0__, OptionC, OptionA are not expected by `RobertaForMultipleChoice.forward`,  you can safely ignore this message.
+***** Running Prediction *****
+  Num examples = 100
+  Batch size = 8
+</code></pre>
+</div>
+<div class="output display_data">
+
+</div>
+<div class="output execute_result" data-execution_count="37">
+
+  <div id="df-094958bf-401d-4624-a526-554ca82a6d26" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>FalseSent</th>
+      <th>OptionA</th>
+      <th>OptionB</th>
+      <th>OptionC</th>
+      <th>label</th>
+      <th>prediction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>521</th>
+      <td>324</td>
+      <td>She put the filing cabinet into the papers.</td>
+      <td>Papers are fragile than the filing cabinet.</td>
+      <td>Nothing can be put into the paper.</td>
+      <td>Filing cabinets are usually gray while papers ...</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>737</th>
+      <td>1455</td>
+      <td>The lion used the litter box</td>
+      <td>A lion is normally found in the wild</td>
+      <td>A lion cannot eat a cat</td>
+      <td>A domestic cat is tame and use litter boxes</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>740</th>
+      <td>13</td>
+      <td>Cigarette is good for healthy</td>
+      <td>Cigarette contains lots of nicotines</td>
+      <td>Lung will be damaged by smoking cigarette</td>
+      <td>Cigarettes always have a high tax</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>660</th>
+      <td>207</td>
+      <td>Pens are for painting</td>
+      <td>Pens are too small</td>
+      <td>Pens are a writing utensil</td>
+      <td>pens would make a mess</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>411</th>
+      <td>774</td>
+      <td>he put a piece of plastic on the bread</td>
+      <td>I don't like sliced bread in plastic bags</td>
+      <td>the plastic usually is toxic</td>
+      <td>some plastic is biodegradable</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>436</th>
+      <td>225</td>
+      <td>Carol turned on the potato</td>
+      <td>Carol eats the potato</td>
+      <td>A potato can't be turned on</td>
+      <td>potatoes can be used to make electricity</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>764</th>
+      <td>1663</td>
+      <td>i use my dog to play cricket</td>
+      <td>Dog is not interested in the cricket ball</td>
+      <td>the dog is so brisk</td>
+      <td>No one can play the cricket ball by their's dog</td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>82</td>
+      <td>Dolphins are fish.</td>
+      <td>Dolphins are warm-blooded and breathe air, whi...</td>
+      <td>Dolphins have fins.</td>
+      <td>Dolphins live in the ocean.</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>800</td>
+      <td>the family adopted a dinosaur to be their new pet</td>
+      <td>the dinosaurs died out long ago</td>
+      <td>many different animals can make good pets</td>
+      <td>some dinosaurs are carnivorous animals</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>826</th>
+      <td>948</td>
+      <td>he learned with his refrigerator before the exam</td>
+      <td>refrigerators are usually big while the exam i...</td>
+      <td>refrigerator doesn't have any information for ...</td>
+      <td>his mate hide his textbooks in the refrigerato...</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>100 rows × 7 columns</p>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-094958bf-401d-4624-a526-554ca82a6d26')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-094958bf-401d-4624-a526-554ca82a6d26 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-094958bf-401d-4624-a526-554ca82a6d26');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-1777c1e9-864b-40c6-8b94-ed0380ba6533">
+  <button class="colab-df-quickchart" onclick="quickchart('df-1777c1e9-864b-40c6-8b94-ed0380ba6533')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-1777c1e9-864b-40c6-8b94-ed0380ba6533 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+  <div id="id_1756f670-2389-4247-ac99-8f90d5ab3984">
+    <style>
+      .colab-df-generate {
+        background-color: #E8F0FE;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        display: none;
+        fill: #1967D2;
+        height: 32px;
+        padding: 0 0 0 0;
+        width: 32px;
+      }
+
+      .colab-df-generate:hover {
+        background-color: #E2EBFA;
+        box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+        fill: #174EA6;
+      }
+
+      [theme=dark] .colab-df-generate {
+        background-color: #3B4455;
+        fill: #D2E3FC;
+      }
+
+      [theme=dark] .colab-df-generate:hover {
+        background-color: #434B5C;
+        box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+        filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+        fill: #FFFFFF;
+      }
+    </style>
+    <button class="colab-df-generate" onclick="generateWithVariable('test_data')"
+            title="Generate code using this dataframe."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M7,19H8.4L18.45,9,17,7.55,7,17.6ZM5,21V16.75L18.45,3.32a2,2,0,0,1,2.83,0l1.4,1.43a1.91,1.91,0,0,1,.58,1.4,1.91,1.91,0,0,1-.58,1.4L9.25,21ZM18.45,9,17,7.55Zm-12,3A5.31,5.31,0,0,0,4.9,8.1,5.31,5.31,0,0,0,1,6.5,5.31,5.31,0,0,0,4.9,4.9,5.31,5.31,0,0,0,6.5,1,5.31,5.31,0,0,0,8.1,4.9,5.31,5.31,0,0,0,12,6.5,5.46,5.46,0,0,0,6.5,12Z"/>
+  </svg>
+    </button>
+    <script>
+      (() => {
+      const buttonEl =
+        document.querySelector('#id_1756f670-2389-4247-ac99-8f90d5ab3984 button.colab-df-generate');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      buttonEl.onclick = () => {
+        google.colab.notebook.generateWithVariable('test_data');
+      }
+      })();
+    </script>
+  </div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell markdown" data-deletable="false" data-editable="false"
+id="gfGlNusLDepj">
+<p>The <strong>Subtasks B</strong> of <strong>ComVE</strong> is
+evaluated using accuracy. The <a
+href="https://huggingface.co/docs/evaluate/index">evaluate</a> library
+provides support to apply this and other metrics. The
+<code>evaluate_prediction</code> function takes the test
+<code>DataFrame</code> and calculates the accuracy comparing the
+<code>prediction</code> and <code>label</code> columns. With
+<code>shrink_dataset</code> and <code>base_model</code> set to
+<code>True</code> the model is not able to learn the task so the
+expected score is only <em>0.51</em>. With a full training run, i.e.
+with <code>shrink_dataset</code> and <code>base_model</code> set to
+<code>False</code>, the score should be around <em>0.928</em>.</p>
+</div>
+<div class="cell code" data-execution_count="38"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:66,&quot;referenced_widgets&quot;:[&quot;4577d33c785f44a38b9f18685ca9a1e1&quot;,&quot;ab9de8a67717448cb36a7d29b5cd5be3&quot;,&quot;5957405d2a644f5d88e1e41e80877923&quot;,&quot;a63291ade9064a3a9de12d5da6d0bffb&quot;,&quot;141fd9def04444f38e3d3ae93db2586a&quot;,&quot;73399033d90f408995dc641c63510f09&quot;,&quot;39281ca4842045e08bf3be2bebef1a4b&quot;,&quot;039d3ab4b72f4f199b530b3973629650&quot;,&quot;759a1eac6e764222a8e945d6db1485cb&quot;,&quot;206e4d9b354042959eed3a74eacce4cc&quot;,&quot;bce18e8ca9834219bc9ee78407611b88&quot;]}"
+data-deletable="false" data-editable="false" id="Hy6iw9IsDepj"
+data-outputId="6fe7ffaf-21bc-46d7-ae27-a3b047453426">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> evaluate_prediction(test_data):</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>    accuracy <span class="op">=</span> evaluate.load(<span class="st">&quot;accuracy&quot;</span>)</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> accuracy.compute(predictions<span class="op">=</span>test_data[<span class="st">&quot;prediction&quot;</span>].values, references<span class="op">=</span>test_data[<span class="st">&quot;label&quot;</span>].values)</span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>evaluate_prediction(test_data)</span></code></pre></div>
+<div class="output display_data">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;4577d33c785f44a38b9f18685ca9a1e1&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output execute_result" data-execution_count="38">
+<pre><code>{&#39;accuracy&#39;: 0.45}</code></pre>
+</div>
+</div>
+</body>
+</html>
